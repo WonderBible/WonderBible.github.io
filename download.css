@@ -410,7 +410,6 @@ height:100px;
         border-radius:100px;
         border-style:solid; 
         font-size:20px; 
-        margin-left:30px;
         height:40px;
         width:100px;
       }
@@ -499,6 +498,42 @@ height:100px;
         transition: 0.19s;
         transition: 0.23s;
       } 
+      .download-desktop {
+        color:black; 
+        background-color:white;
+        border-color:white; 
+        cursor:pointer ;
+        border-radius:100px;
+        border-style:solid; 
+        font-size:20px; 
+        margin-left:30px;
+        height:40px;
+        width:100px;
+      }
+      .download-desktop:hover {
+        color:black; 
+        background-color:white;
+        border-color:#5d00ff; 
+        cursor:pointer ;
+        border-radius:100px;
+        border-style:solid; 
+        font-size:20px; 
+        margin-left:30px;
+        transition: 0.19s;
+        transition: 0.23s;
+      }
+      .download-desktop:active {
+        color:black; 
+        background-color:white;
+        border-color:#ffa500; 
+        cursor:pointer ;
+        border-radius:100px;
+        border-style:solid; 
+        font-size:20px; 
+        margin-left:30px;
+        transition: 0.19s;
+        transition: 0.23s;
+      }
     .sqg1 {
       color:salmon;
       cursor: pointer;
