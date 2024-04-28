@@ -34,11 +34,8 @@ header a {
       justify-content: center;
       align-items: center;
       position: relative;
-      margin: 0 7px;
+      margin: 0 2px;
     }
-.black {
-background-color: #000000;
-}
 .sm a::before{
   content: '';
   position: absolute;
@@ -49,19 +46,19 @@ background-color: #000000;
   transition: transform .3s ease-in;
 }
 .sm a:nth-child(1)::before{
-  background: red;;
+  background: red;
 }
-.sm a:nth-child(1)::before{
+.sm a:nth-child(3)::before{
   background: #5865f2;;
 }
-.sm a:nth-child(2)::before{
+.sm a:nth-child(4)::before{
   background: #1c96e9;
 }
-.sm a:nth-child(4)::before{
+.sm a:nth-child(2)::before{
   background: white;
 }
 .sm a:nth-child(5)::before{
-  background: #5865f2;
+  background: #E1306C;
 }
 .sm a:hover::before{
   transform: scale(0);
@@ -75,14 +72,8 @@ background-color: #000000;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
 }
-.sm a:nth-child(3):hover i{
-  background: #5865f2;;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1.5);
-}
-.sm a:nth-child(4):hover i{
-  background: #1c96e9;
+.sm a:nth-child(1):hover i{
+  background: red;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
@@ -93,8 +84,20 @@ background-color: #000000;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
 }
+.sm a:nth-child(3):hover i{
+  background:#5865f2; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.5);
+}
+.sm a:nth-child(4):hover i{
+  background: #1c96e9;;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.5);
+}
 .sm a:nth-child(5):hover i{
-  background: #5865f2;
+  background: #E1306C;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
@@ -402,14 +405,23 @@ height:100px;
     font-family: Arial;
     }
     .copyright {
-    color:white;
-    font-family: Arial;
-    margin-bottom: 20px;
-    }
-    .copyright2 {
-    color:white;
-    font-family: Arial;
-    }
+      color:white;
+      margin-top: 60px;
+      font-family: Gabarito;
+      font-family: Arial;
+      font-weight: bolder;
+      font-size: 15px;
+      }
+      .copyright2 {
+      color:white;
+      font-family: Arial;
+      font-family: Arial;
+      font-weight: bolder;
+      }
+      .policy:hover {
+        text-decoration: underline;
+        cursor: pointer;
+            }  
     .wel {
     font-size: 18px;
     font-family: Arial;
@@ -479,20 +491,46 @@ transition: 0.23s;
   border-color: orange;
   }
 }
-.sm a:nth-child(1)::before{
-  background: red;;
+.sm {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  background-color: white;
+    }
+    .sm a{
+      display: inline-flex;
+      text-decoration: none;
+      font-size: 25px;
+      width: 60px;
+      height: 60px;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin: 0 2px;
+    }
+.sm a::before{
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 25%;
+  z-index: -1;
+  transition: transform .3s ease-in;
 }
 .sm a:nth-child(1)::before{
+  background: red;
+}
+.sm a:nth-child(3)::before{
   background: #5865f2;;
 }
-.sm a:nth-child(2)::before{
+.sm a:nth-child(4)::before{
   background: #1c96e9;
 }
-.sm a:nth-child(4)::before{
+.sm a:nth-child(2)::before{
   background: white;
 }
 .sm a:nth-child(5)::before{
-  background: #5865f2;
+  background: #E1306C;
 }
 .sm a:hover::before{
   transform: scale(0);
@@ -506,14 +544,8 @@ transition: 0.23s;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
 }
-.sm a:nth-child(3):hover i{
-  background: #5865f2;;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1.5);
-}
-.sm a:nth-child(4):hover i{
-  background: #1c96e9;
+.sm a:nth-child(1):hover i{
+  background: red;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
@@ -524,8 +556,20 @@ transition: 0.23s;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
 }
+.sm a:nth-child(3):hover i{
+  background:#5865f2; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.5);
+}
+.sm a:nth-child(4):hover i{
+  background: #1c96e9;;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.5);
+}
 .sm a:nth-child(5):hover i{
-  background: #5865f2;
+  background: #E1306C;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.5);
@@ -803,3 +847,73 @@ font-family: Arial;
     color:black;
     font-family: Arial;
     }
+    .use {
+      color:lightblue;
+      font-family: Arial;
+      }
+      .use:hover {
+      color:red;
+      font-family: Arial;
+      transition: 0.19s;
+      transition: 0.23s;
+      }
+      .use:active {
+      color:black;
+      font-family: Arial;
+      }
+      .select-menu{
+        width: 150px;
+        cursor: pointer;
+        position: relative;
+      }
+      
+      .select{
+        background-color: black;
+        padding: 20px;
+        color: #fff;
+        font-weight: 500;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top:35px;
+      }
+      
+      .options-list{
+        position: absolute;
+        width: 100%;
+        background-color: green;
+        color:orange;
+        border-radius: 6px;
+        margin-top: 14px;
+        padding: 0 20px;
+        max-height: 180px;
+        overflow-y: auto;
+        transition: .4s linear .2s;
+        height: 0;
+      }
+      
+      .option{
+        padding: 8px 0;
+        font-weight: 500;
+        font-size: 14px;
+        transition: .3s ease-in-out;
+      }
+      
+      .option:hover,
+      .option.selected{
+        color: #5d00ff;
+      }
+      
+      .options-list::-webkit-scrollbar{
+        width: 4px;
+        background-color: #5d00ff;
+      }
+      
+      .options-list::-webkit-scrollbar-thumb{
+        background-color: yellow;
+      }
+      
+      .options-list.active{
+        height: 180px;
+      }
