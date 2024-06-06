@@ -19,6 +19,8 @@
     <link rel="icon" href="WB Logo.png" type="image/x-icon">
   </head>
   <body>
+    <div id="preloader"><p style="text-align: center; margin-top: 420px; font-size: 20px;">Loading...</p>
+      <p style="text-align: center; font-size: 20px;">Jesus Loves You!...</p></div>
     <header style="background-color: #ffffff;">
       <div id="brand">
         <a href="https://wonderbible.world/Valt-Wel"><img title="Valt-Wel HomePage" style="display: inline-block; border-color: blue; float:left; margin-right: 20px; margin-bottom: 0; margin-left:20px; cursor:pointer;" src="WB Logo.png" onclick="document.location='https://wonderbible.world'" width="60"></a>  
@@ -52,6 +54,15 @@
     </div>
     </header>
     <script src="FFB.js"></script>
+    
+     <script>
+      var loader = document.getElementById("preloader");
+
+      window.addEventListener("load", function(){
+        loader.style.display = "none";
+      })
+     </script>
+
     </body>
     <div style="background-color:rgb(0, 140, 255);">
       <div onclick="document.location='we.html'" class="tap" style="cursor:pointer;">
