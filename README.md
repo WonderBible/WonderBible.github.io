@@ -12,7 +12,7 @@
 
 
 
-![U-S-M](https://wonderbible.world/Social%20Media.webp)
+
 
 ****WonderBIble Social Media****
 
