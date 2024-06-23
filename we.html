@@ -13,6 +13,7 @@
     <link rel="icon" href="BibleQuest.png" type="image/x-icon">
   </head>
   <body>
+    <div id="preloader"></div>
     <header style="background-color:orange;">
       <div id="brand">
         <img title="WonderBible HomePage" style="display: inline-block; border-color: blue; float:left; margin-right: 20px; margin-bottom: 0; margin-left:20px; cursor:pointer;" src="WB Logo.png" onclick="document.location='https://wonderbible.world'" width="60">  
@@ -45,7 +46,14 @@
     </div>
     </header>
     <script src="FFB.js"></script>
-  
+    <script>
+      var loader = document.getElementById("preloader");
+
+      window.addEventListener("load", function(){
+        
+        loader.style.display = "none";
+      })
+     </script>
     </body>
     <div style="margin-left: 50px; font-size: 18px;">
       <div>
@@ -69,11 +77,11 @@
             <p style="margin-bottom: 50px; color:black; font-size: 30px; margin-top: 40px; text-align: center;">Know More In The <a href="wbfunfact.html"><button class="wbff" href="wbfunfact.html">WonderBible Fun Facts</button></a></p>
     </div>
     <div style="margin-top:0; background-color:black; height:430px; color:white;" class="sm">
-      <a href="https://youtube.com/@Valt-Wel"><i class="fab fa-youtube"></i></a>
+      <a href="https://youtube.com/@Valt-Wel?sub_confirmation=1"><i class="fab fa-youtube"></i></a>
       <a href="https://github.com/WonderBible"><i class="fab fa-github"></i></a>
-      <a href="https://discord.gg/8C4h8aFPt3"><i class="fab fa-discord"></i></a>
+      <a href="https://discord.gg/mYCCebZV"><i class="fab fa-discord"></i></a>
       <a href="https://t.me/wonderbible"><i class="fab fa-telegram"></i></a>
-      <a href="https://instagram.com/valt_wel"><i class="fab fa-instagram"></i></a>
+      <a href="https://wonderbible.world/socialmedia"><i class="fab fa-next"></i>></a>
       <p class="use" style="margin-top: 40px; cursor:pointer; font-weight:bold;" onclick="document.location='https://wonderbible.world/old'">The Old/1st Version Of WonderBible 👍</p>
       <div class="select-menu">
         <div class="select">

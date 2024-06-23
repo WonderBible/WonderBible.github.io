@@ -16,9 +16,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Download WonderBible Apps - WonderBible</title>
-    <link rel="icon"  href="Download.png" type="image/x-icon"
+    <link rel="icon"  href="Download.png" type="image/x-icon">
   </head>
   <body>
+    <div id="preloader"></div>
     <header style="background-color: orange;">
       <div id="brand">
         <img title="WonderBible HomePage" style="display: inline-block; border-color: blue; float:left; margin-right: 20px; margin-bottom: 0; margin-left:20px; cursor:pointer;" src="WB Logo.png" onclick="document.location='https://wonderbible.world'" width="60">  
@@ -51,6 +52,14 @@
     </div>
     </header>
     <script src="FFB.js"></script>
+    <script>
+      var loader = document.getElementById("preloader");
+
+      window.addEventListener("load", function(){
+        
+        loader.style.display = "none";
+      })
+     </script>
     </body>
     <img style="margin-top: 40px; margin-left: 70px;" src="Download.png" width="200">
     <p style="margin-left: 60px; margin-top: 40px;"><strong style="color:orange;">W</strong>onder<strong style="color:#5d00ff">B</strong>ible Mobile & Desktop App</p>
@@ -59,11 +68,11 @@
     <p style="font-size: 30px; margin-left: 40px; margin-top: 60px;">For Desktop, Available Only On... </p>
     <button id="btnInstall" style="margin-top:30px; color:black; background-color: white; margin-left: 50px; height:100px; width:250px" class="download-desktop"><img src="Edge.png" width="50"> <span style="font-size: 60px; font-weight: bold; margin-left: 20px;">Edge</span></a></button><span style="font-size: 60px; margin-left: 30px;"></span><button id="btnInstall" style="margin-top:30px; color:black; background-color: white; height:100px; width:300px" class="download-desktop"><img src="Chrome.png" width="50"> <span style="font-size: 55px; font-weight: bold; margin-left: 15px;">Chrome</span></a></button></p>
     <div style="margin-top:0; background-color:black; height:430px; color:white;" class="sm">
-      <a href="https://youtube.com/@Valt-Wel"><i class="fab fa-youtube"></i></a>
+      <a href="https://youtube.com/@Valt-Wel?sub_confirmation=1"><i class="fab fa-youtube"></i></a>
       <a href="https://github.com/WonderBible"><i class="fab fa-github"></i></a>
-      <a href="https://discord.gg/8C4h8aFPt3"><i class="fab fa-discord"></i></a>
+      <a href="https://discord.gg/mYCCebZV"><i class="fab fa-discord"></i></a>
       <a href="https://t.me/wonderbible"><i class="fab fa-telegram"></i></a>
-      <a href="https://instagram.com/valt_wel"><i class="fab fa-instagram"></i></a>
+      <a href="https://wonderbible.world/socialmedia"><i class="fab fa-next"></i>></a>
       <p class="we" style="margin-top: 40px; cursor:pointer; font-weight:bold;" onclick="document.location='https://wonderbible.world/old'">The Old/1st Version Of WonderBible 👍</p>
       <div class="select-menu">
         <div class="select">
