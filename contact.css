@@ -244,13 +244,14 @@ font-family: Arial;
 .send {
 margin-bottom: 10px;
 display: block;
-margin-left:200px;
+margin-left: 95px;
 border-radius: 100px;
 border-color: Blue;
 background-color: blue;
 color:white;
 height:50px;
 width:70px;
+margin-top: 40px;
 }
 .name-bar {
 color:Blue;
@@ -324,13 +325,13 @@ margin-left: 400px;
 font-family: Arial;
 }
 .email-bar {
-width:335px
+width:230px
 }
 .name-bar {
 width:230px;
 }
 .message-bar {
-width:800px;
+width:290px;
 min-height: 100px;
 }
 .copyright {
