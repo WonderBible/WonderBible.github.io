@@ -875,7 +875,7 @@ font-family: Arial;
       
       .options-list{
         position: absolute;
-        width: 100%;
+        width: 80%;
         background-color: green;
         color:orange;
         border-radius: 6px;
