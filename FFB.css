@@ -234,7 +234,7 @@ cursor: pointer;
   align-items: center;
   justify-content: flex-start;
   background-color: black;
-  height: 350px;
+  height: 250px;
 }
 .nul1 {
 background-color:red;
@@ -704,13 +704,13 @@ height:100px;
     
     .options-list{
       position: absolute;
-      width: 100%;
+      width: 80%;
       background-color: green;
       color:orange;
       border-radius: 6px;
       margin-top: 14px;
       padding: 0 20px;
-      max-height: 180px;
+      max-height: 150px;
       overflow-y: auto;
       transition: .4s linear .2s;
       height: 0;
