@@ -48,16 +48,6 @@
     </div>
     </header>
     <script src="FFB.js"></script>
-    
-     <script>
-      var loader = document.getElementById("preloader");
-
-      window.addEventListener("load", function(){
-        
-        loader.style.display = "none";
-      })
-     </script>
-
     </body>
     <div>
     <div style="background-color:rgb(0, 140, 255);">
@@ -212,4 +202,12 @@
     navigator.serviceWorker.register('/sw.js', { scope: '/' });
   }
   </script>
+       <script>
+        var loader = document.getElementById("preloader");
+  
+        window.addEventListener("load", function(){
+          
+          loader.style.display = "none";
+        })
+       </script>
 </html>
